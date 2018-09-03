@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class='wrapper'>
+  <view class='screen'>
+  {{screenData}}
+  </view>
+
+  <view class='calc'>
+    <block wx:for="{{calcnum}}" wx:key="calc">
+      <view class='calc_item {{index <= 3 || index % 4 ==3 ? "orange":"blue"}}' bindtap="clickCalc" data-index="{{index}}" data-text="{{item}}">
+        {{item}}
+      </view>    
+    </block>
+  </view>
+
+</view>

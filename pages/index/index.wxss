@@ -1,0 +1,30 @@
+/**index.wxss**/
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+.screen {
+  height: 150rpx;
+  line-height: 150rpx;
+  text-align: right;
+}
+.calc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.calc .calc_item {
+  width: 160rpx;
+  height: 160rpx;
+  line-height: 160rpx;
+  margin-bottom: 2%;
+  border-radius: 10rpx;
+  color: #ffffff;
+}
+.orange {
+  background: #f78d1d;
+}
+.blue {
+  background: #0095cc;
+}
